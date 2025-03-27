@@ -1,0 +1,73 @@
+# Visual Studio files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build outputs
+bin/
+obj/
+out/
+*.dll
+*.exe
+*.pdb
+*.cache
+*.log
+
+# User settings
+*.rsuser
+*.sln.ide
+
+# NuGet packages
+*.nupkg
+*.snupkg
+.nuget/
+
+# ASP.NET specific
+appsettings.*.json
+secrets.json
+
+# Logs and temp files
+logs/
+*.log
+!nuget.exe
+
+# Visual Studio Code
+.vscode/
+
+# Node modules (if using frontend tools)
+node_modules/
+
+# IDE-specific
+.idea/
+*.iml
+
+# Generated files
+GeneratedFiles/
+
+# Publish outputs
+.publish/
+.Docker/
+
+# Coverage reports
+coverage/
+
+# SQL Server database files
+*.mdf
+*.ldf
+
+# Azure related
+local.settings.json
+
+# Resharper files
+*.DotSettings.user
+_ReSharper*/
+
+# Rider files
+.idea/
+*.sln.iml
+
+# Environment
+.env
+.env.*
