@@ -1,37 +1,3 @@
-//using Microsoft.EntityFrameworkCore;
-//using TaskManagementAPI.Data;
-
-//var builder = WebApplication.CreateBuilder(args);
-
-//builder.Services.AddDbContext<AppDbContext>(options =>
-//    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
-
-//builder.Services.AddControllers();
-//builder.Services.AddEndpointsApiExplorer();
-//builder.Services.AddSwaggerGen();
-
-//var app = builder.Build();
-
-//if (app.Environment.IsDevelopment())
-//{
-//    app.UseSwagger();
-//    app.UseSwaggerUI();
-//    app.UseDeveloperExceptionPage();
-//}
-
-//app.UseCors("AllowSpecificOrigin"); // Use the defined CORS policy
-
-//app.UseRouting();
-
-//app.UseEndpoints(endpoints =>
-//{
-//    endpoints.MapControllers(); // Or MapDefaultControllerRoute() if using MVC
-//});
-
-//app.MapControllers();
-//app.Run();
-
-
 using Microsoft.EntityFrameworkCore;
 using TaskManagementAPI.Data;
 
